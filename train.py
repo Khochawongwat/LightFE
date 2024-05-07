@@ -35,7 +35,7 @@ def train(model, dataloader, loss, optimizer, size,  epochs = 3, device="cuda", 
 
                 x = y = batch.clone()
                 
-                depth = random.randint(1, 3)
+                depth = random.randint(1, 4)
 
                 depths.append(depth)
 
@@ -74,7 +74,7 @@ def train(model, dataloader, loss, optimizer, size,  epochs = 3, device="cuda", 
 
                 if i % iter*100 == 0 and i != 0:
                     log.write(f"Saving model {epoch + 1}_{i}\n")
-                    torch.save(model.state_dict(), f"./models/model({size})_{epoch}.pth")
+                    torch.save(model.state_dict(), f"./models/model_light({size})_{epoch}.pth")
 
                 torch.cuda.empty_cache()
                 del x, y, output, loss_value

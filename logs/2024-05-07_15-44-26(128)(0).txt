@@ -1,0 +1,19 @@
+Size: 128, Epoch: 1, Iteration: 0, Average Loss: 5.168729305267334
+Size: 128, Epoch: 1, Iteration: 100, Average Loss: 3.16880717754364
+Saving model 1_100
+Size: 128, Epoch: 1, Iteration: 200, Average Loss: 3.4506389617919924
+Saving model 1_200
+Size: 128, Epoch: 1, Iteration: 300, Average Loss: 3.458006646633148
+Saving model 1_300
+Size: 128, Epoch: 1, Iteration: 400, Average Loss: 3.406741361618042
+Saving model 1_400
+Size: 128, Epoch: 1, Iteration: 500, Average Loss: 3.1309587264060976
+Saving model 1_500
+Size: 128, Epoch: 1, Iteration: 600, Average Loss: 2.837336866855621
+Saving model 1_600
+Size: 128, Epoch: 1, Iteration: 700, Average Loss: 2.290809235572815
+Saving model 1_700
+Size: 128, Epoch: 1, Iteration: 800, Average Loss: 3.068508107662201
+Saving model 1_800
+Size: 128, Epoch: 1, Iteration: 900, Average Loss: 3.2236716318130494
+Saving model 1_900

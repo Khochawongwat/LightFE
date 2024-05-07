@@ -1,0 +1,1 @@
+Size: 128, Epoch: 1, Iteration: 0, Average Loss: 3.903658151626587
