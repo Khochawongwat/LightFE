@@ -1,0 +1,3 @@
+Size: 16, Epoch: 1, Iteration: 0, Average Loss: 6.4625983238220215
+Size: 16, Epoch: 1, Iteration: 100, Average Loss: 5.834926543235778
+Saving model 1_100

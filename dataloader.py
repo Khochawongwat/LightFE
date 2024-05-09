@@ -128,7 +128,8 @@ class LazySliceDataset(Dataset):
     def __getitem__(self, index):
         start = index.start if index.start is not None else 0
         stop = index.stop if index.stop is not None else len(self)
-        return torch.stack([self.dataset[i] for i in range(self.start + start, self.start + stop)]).squeeze(0)
+        x = torch.stack([self.dataset[i] for i in range(self.start + start, self.start + stop)]).permute(0, 2, 3, 4, 1).squeeze(4)
+        return x
 
     def __len__(self):
         return self.stop - self.start
